@@ -1,0 +1,17 @@
+[DB - select]
+select - 조회할 데이터의 칼럼
+from - 데이터를 조회할 테이블
+where - 조회할 데이터의 조건
+group by - 동일한 데이터끼리 묶기
+having - group by 이후 실행되는 where
+order by - 정렬 (오름차순 기본, desc 사용 시 내림차순)
+
+문법 순서 - select > from > where > group by > having > order by
+구동 순서 - from > where > group by > havind > select > order by
+
+truncate table 테이블명 - 데이터 초기화
+
+
+[DB - insert]
+insert into - 데이터를 추가할 DB 위치
+values - 추가 데이터
