@@ -1,6 +1,8 @@
 select * from student_tb;
 # *의 의미는 전체 컬럼
 
+# 작성 순서 from, where, group by, select, order by
+
 select 
 	student_id, 
     name,
@@ -51,9 +53,11 @@ values
     (0, '이재영', 26, '부산 서구'),
     (0, '이정찬', 29, '부산 부산진구'),
     (0, '이지언', 26, '부산 동래구'),
-    (0, '이편원', 30, '경상남도 양산시'),
+    (0, '이편원', 30, '경남 양산시'),
     (0, '전주환', 30, '부산 부산진구'),
     (0, '심재원', 29, '부산 남구');
+    
+truncate student_tb;
     
 select
 	*
