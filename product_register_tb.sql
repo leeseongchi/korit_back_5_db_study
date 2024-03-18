@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 select
 	*
 from
@@ -75,3 +76,23 @@ from
 	product_register_view
 where
 	product_size_name like '%L%';
+=======
+SELECT * FROM db_study.product_register_tb;
+
+delete
+from
+	product_register_tb
+where
+	product_color_id in (select					# 서브쿼리
+							product_color_id
+						from
+							product_color_tb
+						where
+							product_color_name = 'Black');
+                            
+select
+	*
+from
+	product_register_view;
+    
+>>>>>>> e49e5324b24ba4d75c38d2ad901551992bb7aee9
